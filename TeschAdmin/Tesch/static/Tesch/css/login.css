@@ -1,0 +1,36 @@
+
+.change-form{
+margin-left:30%;
+margin-top:8%;
+margin-right:35%;
+height:280px;
+background:rgb(240, 240, 240)
+}
+
+.username{
+margin-left:50px;
+margin-right:50px;
+padding-top:10px;
+font-size:15px
+}
+
+.password{
+margin-left:50px;
+margin-right:50px;
+font-size:15px
+}
+
+.submit-btn{
+margin-left:40%;
+}
+
+.login{
+background:#1E2B52;
+border-radius:5px;
+height: 45px;
+}
+
+.login-btn{
+background:#1E2B52;
+color:#fff
+}
