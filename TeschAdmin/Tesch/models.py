@@ -1,11 +1,11 @@
-from django.db import models
-
+from django.contrib.auth.models import *
+from django.utils.translation import ugettext_lazy as _
 # Create your models here.
 
 
-class List_Of_Tesch_Users(models.Model):
+class list_of_tesch_users():
     school_name = models.CharField(max_length=200)
-    username = models.CharField(max_length=200)
+    username = models.CharField(max_length=200,unique=True)
     address = models.CharField(max_length=300)
     password = models.CharField(max_length=500)
     affliation = models.CharField(max_length=200)

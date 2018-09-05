@@ -8,6 +8,11 @@ def login(request):
     return render(request,'Tesch/login.html',context)
 
 def home(request):
-    #user = authenticate(username = 'nps_admin',password ='nps@123')
-    #if user is not None:
-        return HttpResponse("This is a home page")
+    username = request.POST['username']
+    password = request.POST['password']
+    user = authenticate(username=username,password=password)
+    if user is not None:
+        return render(request,'Tesch/home.html',{})
+    else:
+        return render(request, 'Tesch/login.html', {
+            'error_message': "Authentication failed.Invalid username/password",})

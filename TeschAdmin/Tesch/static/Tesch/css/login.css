@@ -4,7 +4,9 @@ margin-left:30%;
 margin-top:8%;
 margin-right:35%;
 height:280px;
-background:rgb(240, 240, 240)
+background:rgb(240, 240, 240);
+position:relative
+
 }
 
 .username{
@@ -33,4 +35,30 @@ height: 45px;
 .login-btn{
 background:#1E2B52;
 color:#fff
+}
+
+.alert-error-message{
+margin-left:30%;
+margin-top:2%;
+margin-right:35%
+color:'red';
+font-size:15px
+}
+.change-card{
+margin-left:32%;
+margin-top:8%;
+margin-right:35%;
+height:280px;
+}
+
+.info-background{
+background-color: #1E2B52 !important;
+}
+
+.btn-back{
+background-color:#1E2B52;
+font-weight:200
+}
+.back{
+background:rgb(240,240,240)
 }

@@ -5,11 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Tesch</title>
+    <title>Tesch Home</title>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Bootstrap core CSS -->
-    <link href="{% static 'Tesch/css/login.css' %}" rel="stylesheet">
     <link href="{% static 'Tesch/css/bootstrap.min.css' %}" rel="stylesheet">
     <!-- Material Design Bootstrap -->
     <link href="{% static 'Tesch/css/mdb.min.css' %}" rel="stylesheet">
@@ -17,42 +16,8 @@
     <link href="{% static 'Tesch/css/style.css' %}" rel="stylesheet">
 </head>
 
-<body class="back">
-    <!-- Material form login -->
-<div class="card change-card">
-
-  <h5 class="card-header white-text text-left py-10 info-background info-background">
-      <strong><b>టెస్చ్ లాగిన్</b></strong>
-  </h5>
-
-  <div class="card-body px-lg-5 pt-0">
-
-    <!-- Form -->
-    <form class="text-center" action="{% url 'Tesch:home' %}" method="post" style="color: #757575;">
-        {% csrf_token %}
-      <!-- Email -->
-      <div class="md-form">
-        <input type="text" id="materialLoginFormEmail" name="username" class="form-control" required>
-        <label for="materialLoginFormEmail">యూజర్పేరు</label>
-      </div>
-
-      <!-- Password -->
-      <div class="md-form">
-        <input type="password" id="materialLoginFormPassword" name="password" class="form-control" required>
-        <label for="materialLoginFormPassword">పాస్వర్డ్</label>
-      </div>
-      <!-- Sign in button -->
-      <button type="submit" class="btn btn-back">లాగిన్</button>
-      {% if error_message%}
-        <p>{{error_message}}</p>
-      {%endif%}
-    </form>
-    <!-- Form -->
-  </div>
-
-
-</div>
-<!-- Material form login -->
+<body>
+<h1>Hello World</h1>
     <!-- SCRIPTS -->
     <!-- JQuery -->
     <script type="text/javascript" src="{% static 'Tesch/scripts/materialdesignjs/jquery-3.3.1.min.js' %}"></script>
