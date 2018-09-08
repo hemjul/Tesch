@@ -15,53 +15,61 @@
     <link href="{% static 'Tesch/css/mdb.min.css' %}" rel="stylesheet">
     <!-- Your custom styles (optional) -->
     <link href="{% static 'Tesch/css/style.css' %}" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
 </head>
 
 <body class="back">
-    <!-- Material form login -->
+<!-- Material form login -->
 <div class="card change-card">
 
-  <h5 class="card-header white-text text-left py-10 info-background info-background">
-      <strong><b>టెస్చ్ లాగిన్</b></strong>
-  </h5>
+    <h5 class="card-header white-text text-left py-10 info-background info-background">
+        <strong><b>టెస్చ్ లాగిన్</b></strong>
+    </h5>
 
-  <div class="card-body px-lg-5 pt-0">
+    <div class="card-body px-lg-5 pt-0">
 
-    <!-- Form -->
-    <form class="text-center" action="{% url 'Tesch:home' %}" method="post" style="color: #757575;">
-        {% csrf_token %}
-      <!-- Email -->
-      <div class="md-form">
-        <input type="text" id="materialLoginFormEmail" name="username" class="form-control" required>
-        <label for="materialLoginFormEmail">యూజర్పేరు</label>
-      </div>
+        <!-- Form -->
+        <form class="text-center" action="{% url 'Tesch:home' %}" method="post" style="color: #757575;">
+            {% csrf_token %}
+            <!-- Email -->
+            <div class="md-form">
+                <input type="text" id="materialLoginFormEmail" name="username" class="form-control" required>
+                <label for="materialLoginFormEmail">యూజర్పేరు</label>
+            </div>
 
-      <!-- Password -->
-      <div class="md-form">
-        <input type="password" id="materialLoginFormPassword" name="password" class="form-control" required>
-        <label for="materialLoginFormPassword">పాస్వర్డ్</label>
-      </div>
-      <!-- Sign in button -->
-      <button type="submit" class="btn btn-back">లాగిన్</button>
-      {% if error_message%}
-        <p>{{error_message}}</p>
-      {%endif%}
-    </form>
-    <!-- Form -->
-  </div>
+            <!-- Password -->
+            <div class="md-form">
+                <input type="password" id="materialLoginFormPassword" name="password" class="form-control" required>
+                <label for="materialLoginFormPassword">పాస్వర్డ్</label>
+            </div>
+            <!-- Sign in button -->
+            <button type="submit" class="btn btn-back" onclick="myFunc()">లాగిన్</button>
+        </form>
+        <!-- Form -->
+    </div>
 
 
 </div>
+{% if error_message%}
+<div class="alert alert-danger" role="alert">
+    <p>{{error_message}}</p>
+</div>
+{%endif%}
 <!-- Material form login -->
-    <!-- SCRIPTS -->
-    <!-- JQuery -->
-    <script type="text/javascript" src="{% static 'Tesch/scripts/materialdesignjs/jquery-3.3.1.min.js' %}"></script>
-    <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="{% static 'Tesch/scripts/materialdesignjs/popper.min.js' %}"></script>
-    <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript" src="{% static 'Tesch/scripts/materialdesignjs/bootstrap.js' %}"></script>
-    <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="{% static 'Tesch/scripts/materialdesignjs/mdb.min.js' %}"></script>
+<!-- SCRIPTS -->
+<!-- JQuery -->
+<script type="text/javascript" src="{% static 'Tesch/scripts/materialdesignjs/jquery-3.3.1.min.js' %}"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="{% static 'Tesch/scripts/materialdesignjs/popper.min.js' %}"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="{% static 'Tesch/scripts/materialdesignjs/bootstrap.js' %}"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="{% static 'Tesch/scripts/materialdesignjs/mdb.min.js' %}"></script>
+
+<script src="{% static 'Tesch/scripts/login.js' %}" type="text/javascript"/>
 </body>
 
 </html>
