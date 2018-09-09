@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Tesch</title>
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Bootstrap core CSS -->
@@ -16,7 +17,11 @@
     <!-- Your custom styles (optional) -->
     <link href="{% static 'Tesch/css/style.css' %}" rel="stylesheet">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="{% static 'Tesch/scripts/jslibs/jquery-3.3.1.min.js' %}"></script>
+
+    <!--<script src="{% static 'Tesch/scripts/login.js' %}"/>-->
+
+    <!-- Bootstrap tooltips -->
 
 
 </head>
@@ -46,7 +51,7 @@
                 <label for="materialLoginFormPassword">పాస్వర్డ్</label>
             </div>
             <!-- Sign in button -->
-            <button type="submit" class="btn btn-back" onclick="myFunc()">లాగిన్</button>
+            <button type="submit" class="btn btn-back" name="login_button">లాగిన్</button>
         </form>
         <!-- Form -->
     </div>
@@ -54,22 +59,22 @@
 
 </div>
 {% if error_message%}
-<div class="alert alert-danger" role="alert">
+<div class="custom">
     <p>{{error_message}}</p>
 </div>
 {%endif%}
-<!-- Material form login -->
-<!-- SCRIPTS -->
-<!-- JQuery -->
+
 <script type="text/javascript" src="{% static 'Tesch/scripts/materialdesignjs/jquery-3.3.1.min.js' %}"></script>
-<!-- Bootstrap tooltips -->
+
+
 <script type="text/javascript" src="{% static 'Tesch/scripts/materialdesignjs/popper.min.js' %}"></script>
 <!-- Bootstrap core JavaScript -->
+
 <script type="text/javascript" src="{% static 'Tesch/scripts/materialdesignjs/bootstrap.js' %}"></script>
 <!-- MDB core JavaScript -->
+
 <script type="text/javascript" src="{% static 'Tesch/scripts/materialdesignjs/mdb.min.js' %}"></script>
 
-<script src="{% static 'Tesch/scripts/login.js' %}" type="text/javascript"/>
 </body>
 
 </html>

@@ -14,19 +14,110 @@
     <link href="{% static 'Tesch/css/mdb.min.css' %}" rel="stylesheet">
     <!-- Your custom styles (optional) -->
     <link href="{% static 'Tesch/css/style.css' %}" rel="stylesheet">
+    <link href="{% static 'Tesch/css/home.css' %}" rel="stylesheet">
 </head>
 
 <body>
-<h1>Hello World</h1>
-    <!-- SCRIPTS -->
-    <!-- JQuery -->
-    <script type="text/javascript" src="{% static 'Tesch/scripts/materialdesignjs/jquery-3.3.1.min.js' %}"></script>
-    <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="{% static 'Tesch/scripts/materialdesignjs/popper.min.js' %}"></script>
-    <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript" src="{% static 'Tesch/scripts/materialdesignjs/bootstrap.js' %}"></script>
-    <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="{% static 'Tesch/scripts/materialdesignjs/mdb.min.js' %}"></script>
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark primary-color custom-home">
+
+    <img src="{% static 'Tesch/images/tesch.png' %}" height="25" width="170" alt="">
+
+    <!-- Collapse button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+            aria-controls="basicExampleNav"
+            aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="basicExampleNav">
+
+        <!-- Links -->
+        <ul class="navbar-nav mr-auto">
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLinkTeachers" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">Teacher</a>
+                <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Add Teacher</a>
+                    <a class="dropdown-item" href="#">Edit Teacher</a>
+                    <a class="dropdown-item" href="#">Announcements</a>
+                    <a class="dropdown-item" href="#">Class Schedule</a>
+                    <a class="dropdown-item" href="#">Pay slips</a>
+
+                </div>
+            </li>
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLinkStudents" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">Student</a>
+                <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Add Student</a>
+                    <a class="dropdown-item" href="#">Edit Student</a>
+                    <a class="dropdown-item" href="#">Announcements</a>
+                    <a class="dropdown-item" href="#">Class Time Table</a>
+                    <a class="dropdown-item" href="#">Fee Management</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Settings</a>
+            </li>
+
+        </ul>
+    </div>
+    <!-- Collapsible content -->
+
+</nav>
+<!-- Card -->
+<div class="dashboard">
+
+    <div class="card teacher-on-leave">
+        <h4 class="teacher-leave-header">XYZ</h4>
+        <h7 class="teacher-leave-header">Teachers on leave</h7>
+    </div>
+
+    <div class="card students-on-leave">
+        <h4 class="student-leave-header">XYZ</h4>
+        <h7 class="student-leave-header">Students on leave</h7>
+    </div>
+
+    <div class="card students-on-leave">
+        <h4 class="student-leave-header">XYZ</h4>
+        <h7 class="student-leave-header">Total students</h7>
+
+    </div>
+
+    <div class="card students-on-leave">
+        <h4 class="student-leave-header">XYZ</h4>
+        <h7 class="student-leave-header">Students on leave</h7>
+    </div>
+
+    <!-- Card -->
+    <!--Basic textarea-->
+    <div class="md-form announcement">
+        <textarea mdbInputDirective type="text" id="form7" class="md-textarea form-control" rows="3" cols="5"></textarea>
+        <label for="form7">Announcement</label>
+    </div>
+
+
+</div>
+
+</div>
+<!-- Card -->
+<!-- SCRIPTS -->
+<!-- JQuery -->
+<script type="text/javascript" src="{% static 'Tesch/scripts/materialdesignjs/jquery-3.3.1.min.js' %}"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="{% static 'Tesch/scripts/materialdesignjs/popper.min.js' %}"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="{% static 'Tesch/scripts/materialdesignjs/bootstrap.js' %}"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="{% static 'Tesch/scripts/materialdesignjs/mdb.min.js' %}"></script>
 </body>
 
 </html>

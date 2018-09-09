@@ -1,0 +1,39 @@
+.custom-home{
+background-color: #1E2B52 !important;
+}
+
+.dashboard{
+ height: 100px;
+ width: 90%;
+ margin-top:5%;
+ margin:auto;
+
+}
+
+.teacher-on-leave{
+height:120%;
+width:20%;
+margin-top:2%;
+background-color:#F5F5AF;
+display:inline-block;
+}
+
+.teacher-leave-header{
+color:#000;
+text-align:center;
+margin-top:2%;
+}
+
+.students-on-leave{
+height:120%;
+width:20%;
+margin-top:2%;
+margin-left:5%;
+display:inline-block;
+background-color:#F5F5AF
+}
+
+.announcement{
+text-align:left;
+margin-right:50%;
+}

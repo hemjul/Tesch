@@ -62,3 +62,9 @@ font-weight:200
 .back{
 background:rgb(240,240,240)
 }
+
+.custom{
+color:#FF0000;
+margin-left:35%;
+margin-top:2%
+}
