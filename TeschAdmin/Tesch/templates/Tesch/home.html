@@ -44,7 +44,7 @@
                 <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLinkTeachers" data-toggle="dropdown"
                    aria-haspopup="true" aria-expanded="false">Teacher</a>
                 <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">Add Teacher</a>
+                    <a class="dropdown-item" href="{% url 'Tesch:requestAddTeacher' %}">Add Teacher</a>
                     <a class="dropdown-item" href="#">Edit Teacher</a>
                     <a class="dropdown-item" href="#">Announcements</a>
                     <a class="dropdown-item" href="#">Class Schedule</a>
@@ -76,6 +76,7 @@
 <!-- Card -->
 <div class="dashboard">
 
+
     <div class="card teacher-on-leave">
         <h4 class="teacher-leave-header">XYZ</h4>
         <h7 class="teacher-leave-header">Teachers on leave</h7>
@@ -92,11 +93,11 @@
 
     </div>
 
+
     <div class="card students-on-leave">
         <h4 class="student-leave-header">XYZ</h4>
         <h7 class="student-leave-header">Students on leave</h7>
     </div>
-
     <!-- Card -->
     <!--Basic textarea-->
     <div class="md-form announcement">

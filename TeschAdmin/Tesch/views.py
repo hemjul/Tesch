@@ -16,3 +16,6 @@ def home(request):
     else:
         return render(request, 'Tesch/login.html', {
             'error_message': "Authentication failed.Invalid username/password",})
+def requestAddTeacher(request):
+    context={}
+    return render(request,'Tesch/teacher/add-teacher.html',context)

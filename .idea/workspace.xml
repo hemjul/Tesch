@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="852cd8b4-9126-4d27-ab8b-338382292766" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TeschAdmin/Tesch/authority/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeschAdmin/Tesch/authority/studentmanagement/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeschAdmin/Tesch/authority/studentmanagement/addStudent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeschAdmin/Tesch/authority/teachermanagement/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeschAdmin/Tesch/static/Tesch/css/home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeschAdmin/Tesch/static/Tesch/images/tesch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeschAdmin/Tesch/static/Tesch/scripts/jslibs/jquery-3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeschAdmin/Tesch/student/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeschAdmin/Tesch/teacher/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeschAdmin/Tesch/templates/Tesch/teacher/add-teacher.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TeschAdmin/Tesch/static/Tesch/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/TeschAdmin/Tesch/static/Tesch/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TeschAdmin/Tesch/static/Tesch/scripts/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/TeschAdmin/Tesch/static/Tesch/scripts/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeschAdmin/Tesch/static/Tesch/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/TeschAdmin/Tesch/static/Tesch/css/home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TeschAdmin/Tesch/templates/Tesch/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/TeschAdmin/Tesch/templates/Tesch/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TeschAdmin/Tesch/templates/Tesch/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/TeschAdmin/Tesch/templates/Tesch/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeschAdmin/Tesch/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/TeschAdmin/Tesch/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeschAdmin/Tesch/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/TeschAdmin/Tesch/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,46 +23,47 @@
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="28" />
           <entry key="gitignore" value="2" />
-          <entry key="html" value="4" />
+          <entry key="html" value="9" />
           <entry key="js" value="4" />
-          <entry key="py" value="21" />
+          <entry key="py" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="28" />
-          <entry key="HTML" value="4" />
+          <entry key="HTML" value="9" />
           <entry key="JavaScript" value="4" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="21" />
+          <entry key="Python" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="898" />
+          <entry key="css" value="977" />
           <entry key="gitignore" value="5" />
-          <entry key="html" value="2216" />
+          <entry key="html" value="2388" />
           <entry key="js" value="147" />
-          <entry key="py" value="1537" />
+          <entry key="py" value="1734" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="898" />
-          <entry key="HTML" value="2216" />
+          <entry key="CSS" value="977" />
+          <entry key="HTML" value="2388" />
           <entry key="JavaScript" value="147" />
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="1537" />
+          <entry key="Python" value="1734" />
         </counts>
       </usages-collector>
     </session>
@@ -80,21 +73,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TeschAdmin/Tesch/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="305">
+              <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
+              <folding>
+                <marker date="1536493787879" expanded="true" signature="648:653" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TeschAdmin/Tesch/authority/studentmanagement/addStudent.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TeschAdmin/Tesch/static/Tesch/css/login.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="986">
+            <state relative-caret-position="347">
               <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
             </state>
           </provider>
@@ -117,8 +108,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TeschAdmin/Tesch/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+            <state relative-caret-position="102">
+              <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -139,20 +130,41 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TeschAdmin/Tesch/templates/Tesch/home.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TeschAdmin/Tesch/templates/Tesch/teacher/add-teacher.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="89" column="26" lean-forward="true" selection-start-line="89" selection-start-column="26" selection-end-line="89" selection-end-column="26" />
+            <state relative-caret-position="85">
+              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TeschAdmin/Tesch/static/Tesch/css/home.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
+            <state relative-caret-position="245">
+              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TeschAdmin/Tesch/templates/Tesch/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="103">
+              <caret line="46" column="82" selection-start-line="46" selection-start-column="82" selection-end-line="46" selection-end-column="82" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TeschAdmin/Tesch/templates/Tesch/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="164">
+              <caret line="39" column="63" selection-start-line="39" selection-start-column="63" selection-end-line="39" selection-end-column="63" />
+              <folding>
+                <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -193,13 +205,15 @@
         <option value="$PROJECT_DIR$/TeschAdmin/Tesch/static/Tesch/scripts/login.js" />
         <option value="$PROJECT_DIR$/TeschAdmin/Tesch/templates/Tesch/login.html" />
         <option value="$PROJECT_DIR$/TeschAdmin/Tesch/static/Tesch/css/login.css" />
-        <option value="$PROJECT_DIR$/TeschAdmin/Tesch/views.py" />
         <option value="$PROJECT_DIR$/TeschAdmin/Tesch/static/Tesch/css/mdb.css" />
         <option value="$PROJECT_DIR$/TeschAdmin/Tesch/authority/studentmanagement/add?studen.py" />
         <option value="$PROJECT_DIR$/TeschAdmin/Tesch/authority/studentmanagement/addStudent.py" />
-        <option value="$PROJECT_DIR$/TeschAdmin/Tesch/urls.py" />
-        <option value="$PROJECT_DIR$/TeschAdmin/Tesch/templates/Tesch/home.html" />
         <option value="$PROJECT_DIR$/TeschAdmin/Tesch/static/Tesch/css/home.css" />
+        <option value="$PROJECT_DIR$/TeschAdmin/Tesch/urls.py" />
+        <option value="$PROJECT_DIR$/TeschAdmin/Tesch/templates/Tesch/Teacher/add-teacher.html" />
+        <option value="$PROJECT_DIR$/TeschAdmin/Tesch/templates/Tesch/home.html" />
+        <option value="$PROJECT_DIR$/TeschAdmin/Tesch/views.py" />
+        <option value="$PROJECT_DIR$/TeschAdmin/Tesch/templates/Tesch/teacher/add-teacher.html" />
       </list>
     </option>
   </component>
@@ -239,14 +253,14 @@
               <item name="Tesch" type="462c0819:PsiDirectoryNode" />
               <item name="TeschAdmin" type="462c0819:PsiDirectoryNode" />
               <item name="Tesch" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Tesch" type="b2602c69:ProjectViewProjectNode" />
               <item name="Tesch" type="462c0819:PsiDirectoryNode" />
               <item name="TeschAdmin" type="462c0819:PsiDirectoryNode" />
               <item name="Tesch" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="Tesch" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -254,9 +268,15 @@
               <item name="Tesch" type="462c0819:PsiDirectoryNode" />
               <item name="TeschAdmin" type="462c0819:PsiDirectoryNode" />
               <item name="Tesch" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="Tesch" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="teacher" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Tesch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tesch" type="462c0819:PsiDirectoryNode" />
+              <item name="TeschAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="TeschAdmin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -314,7 +334,7 @@
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27613726" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28092578" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -325,7 +345,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32952693" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32952693" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49960095" visible="true" weight="0.32952693" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49960095" visible="true" weight="0.32952693" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50039905" side_tool="true" weight="0.32952693" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -396,13 +416,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TeschAdmin/Tesch/templates/Tesch/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="988">
-          <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TeschAdmin/Tesch/static/Tesch/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
@@ -434,22 +447,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TeschAdmin/Tesch/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TeschAdmin/Tesch/authority/studentmanagement/addStudent.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TeschAdmin/Tesch/static/Tesch/css/login.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TeschAdmin/Tesch/static/Tesch/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -458,18 +457,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TeschAdmin/Tesch/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TeschAdmin/Tesch/urls.py">
+    <entry file="file://$PROJECT_DIR$/TeschAdmin/Tesch/static/Tesch/css/home.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="245">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeschAdmin/Tesch/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/TeschAdmin/Tesch/models.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -482,17 +478,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TeschAdmin/Tesch/templates/Tesch/home.html">
+    <entry file="file://$PROJECT_DIR$/TeschAdmin/Tesch/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="89" column="26" lean-forward="true" selection-start-line="89" selection-start-column="26" selection-end-line="89" selection-end-column="26" />
+        <state relative-caret-position="102">
+          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TeschAdmin/Tesch/static/Tesch/css/home.css">
+    <entry file="file://$PROJECT_DIR$/TeschAdmin/Tesch/templates/Tesch/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
+        <state relative-caret-position="164">
+          <caret line="39" column="63" selection-start-line="39" selection-start-column="63" selection-end-line="39" selection-end-column="63" />
+          <folding>
+            <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeschAdmin/Tesch/templates/Tesch/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="46" column="82" selection-start-line="46" selection-start-column="82" selection-end-line="46" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeschAdmin/Tesch/static/Tesch/css/login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeschAdmin/Tesch/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
+          <folding>
+            <marker date="1536493787879" expanded="true" signature="648:653" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeschAdmin/Tesch/templates/Tesch/teacher/add-teacher.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
         </state>
       </provider>
     </entry>
